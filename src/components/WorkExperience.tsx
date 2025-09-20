@@ -4,35 +4,61 @@ import { Briefcase } from "lucide-react";
 const WorkExperience = () => {
   const experiences = [
     {
-      role: "Senior QA Automation Engineer",
-      company: "TechSolutions Inc.",
-      duration: "Jan 2021 – Present",
+      role: "QA Automation Engineer",
+      company: "KeyBank | Nottingham, MD",
+      duration: "",
       achievements: [
-        "Led a team of 4 engineers to design and implement robust test automation frameworks.",
-        "Improved regression test efficiency by 60% by integrating Selenium with CI/CD pipelines (Jenkins).",
-        "Enhanced test coverage from 65% to 90% across web, mobile, and API platforms.",
-        "Collaborated with developers and product managers in Agile/Scrum teams to deliver high-quality releases.",
+        "Engineered and maintained automated test suites using Selenium WebDriver, Appium, Cypress, Playwright ensuring cross-browser and cross-device compatibility.",
+        "Developed scalable test scripts in Python, Java, C#, Ruby, or JavaScript using TestNG or JUnit for unit, integration, and end-to-end testing.",
+        "Implemented BDD practices using Cucumber and Spec Flow for collaboration between technical and non-technical team members.",
+        "Integrated API testing into automation frameworks using Postman, SoapUI & REST Assured.",
+        "Integrated automated test suites into CI/CD pipelines using Jenkins, CircleCI, Travis CI, GitHub Actions, or Bamboo.",
+        "Performed accessibility testing (ADA compliance) using screen readers, keyboard navigation, and contrast analyzers.",
+        "Applied TCP/IP, HTTP, FTP, SMTP, UDP, DHCP, SSL, and DNS to troubleshoot network-related issues.",
+        "Participated in Agile/Scrum meetings and contributed to continuous process improvement.",
+        "Prepared test plans, traceability matrices, and defect reports in Jira and TestRail.",
       ],
     },
     {
       role: "QA Automation Engineer",
-      company: "NextGen Software Pvt Ltd.",
-      duration: "Jul 2018 – Dec 2020",
+      company: "Amazon | Baltimore, MD",
+      duration: "Apr 2024 - Jan 2025",
       achievements: [
-        "Developed automated test scripts using Java, TestNG, and Maven, reducing manual testing by 40%.",
-        "Performed API testing with Postman and REST Assured for microservices-based applications.",
-        "Implemented parallel test execution in Selenium Grid, cutting execution time by 50%.",
-        "Contributed to release planning and defect triage meetings, ensuring timely bug resolution.",
+        "Automated system testing for trading transactions, exchange operations, and payment methods using Selenium WebDriver with C# and NUnit.",
+        "Performed API testing with Postman, SoapUI, and REST Assured; executed performance testing using JMeter.",
+        "Built and executed CI/CD pipelines with Jenkins, GitHub Actions, CircleCI, Travis CI.",
+        "Documented and tracked software defects using JIRA and TestRail.",
+        "Prepared test cases in Quality Center and mapped requirements to ensure proper coverage.",
+        "Led test process improvements integrating BDD/TDD methodologies.",
+        "Conducted root cause analysis of critical test failures using logs and debugging.",
+        "Wrote SQL queries to validate backend data on MySQL, PostgreSQL, and SQL Server.",
+        "Collaborated with DevOps teams to execute tests in containerized environments using Docker, Kubernetes, and Azure cloud platforms.",
       ],
     },
     {
-      role: "QA Analyst",
-      company: "Innovative Systems",
-      duration: "Jun 2016 – Jun 2018",
+      role: "Test Engineer",
+      company: "Infosys | Hyderabad, India",
+      duration: "Jan 2021 - Jan 2023",
       achievements: [
-        "Performed manual and functional testing for web-based applications.",
-        "Documented and executed detailed test cases, reporting defects via JIRA.",
-        "Collaborated with cross-functional teams to validate business requirements and system workflows.",
+        "Developed and executed comprehensive test plans, test cases, and test scripts to ensure functionality, performance, and security of applications.",
+        "Implemented automation testing using Selenium and TestNG, reducing manual effort by 40%.",
+        "Led the testing lifecycle from test case design to execution and defect reporting.",
+        "Identified, tracked, and reported defects using JIRA.",
+        "Performed integration, regression, and performance testing on web applications to ensure cross-browser and platform compatibility.",
+        "Conducted API testing using Postman for backend validation and third-party integrations.",
+      ],
+    },
+    {
+      role: "Software Test Engineer",
+      company: "Sify Technologies Limited | Chennai, India",
+      duration: "Jun 2019 - Jan 2021",
+      achievements: [
+        "Developed detailed test plans, test cases, and test scripts aligned with pharmaceutical standards.",
+        "Implemented automated test scripts for regression and system integration testing using Selenium, Test Complete, or QTP.",
+        "Integrated QA testing into CI/CD pipelines for faster feedback and quicker releases.",
+        "Conducted database testing (SQL, Oracle, NoSQL) ensuring regulatory compliance (HIPAA/GDPR).",
+        "Performed API security testing using OWASP ZAP and Postman to secure pharmaceutical APIs.",
+        "Led Continuous Improvement Process (CIP) initiatives to enhance productivity and efficiency.",
       ],
     },
   ];
@@ -63,16 +89,10 @@ const WorkExperience = () => {
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900">
-                      {exp.role}
-                    </h3>
-                    <p className="text-lg text-indigo-600 font-medium">
-                      {exp.company}
-                    </p>
+                    <h3 className="text-xl font-bold text-gray-900">{exp.role}</h3>
+                    <p className="text-lg text-indigo-600 font-medium">{exp.company}</p>
                   </div>
-                  <span className="text-gray-500 italic mt-2 md:mt-0">
-                    {exp.duration}
-                  </span>
+                  <span className="text-gray-500 italic mt-2 md:mt-0">{exp.duration}</span>
                 </div>
 
                 <ul className="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
