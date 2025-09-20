@@ -1,37 +1,90 @@
 import React from "react";
-import { Code, Database, Settings, Monitor } from "lucide-react";
+import { Code, Settings, Monitor, Database } from "lucide-react";
 
 const TechnicalSkills = () => {
   const skills = [
     {
-      category: "Programming & Scripting",
+      category: "Automation Testing Tools",
+      icon: <Settings className="text-white" size={24} />,
+      items: [
+        "Python", 
+        "Selenium (WebDriver, IDE, Grid)", 
+        "TestNG", 
+        "JUnit", 
+        "Cucumber", 
+        "SoapUI", 
+        "Postman", 
+        "Rest Assured", 
+        "JMeter", 
+        "Appium", 
+        "Xcode", 
+        "Android Studio"
+      ],
+    },
+    {
+      category: "Frameworks",
       icon: <Code className="text-white" size={24} />,
-      items: ["Java", "Python", "JavaScript", "SQL"],
+      items: [
+        "Cucumber", 
+        "Robot", 
+        "Keyword Driven", 
+        "Data Driven", 
+        "BDD", 
+        "Hybrid", 
+        "Page Object Model (POM)", 
+        "Cypress", 
+        "Playwright", 
+        "WebDriver IO"
+      ],
     },
     {
-      category: "Automation Tools",
-      icon: <Settings className="text-white" size={24} />,
-      items: ["Selenium WebDriver", "TestNG", "JUnit", "Cucumber"],
-    },
-    {
-      category: "CI/CD & Version Control",
+      category: "Utilities",
       icon: <Monitor className="text-white" size={24} />,
-      items: ["Jenkins", "Git/GitHub", "Maven", "Docker (basic)"],
+      items: [
+        "Eclipse", 
+        "IntelliJ Idea", 
+        "Visual Studio", 
+        "GIT", 
+        "SVN", 
+        "Dev Tools", 
+        "TOAD", 
+        "Putty"
+      ],
     },
     {
-      category: "Databases",
+      category: "Build, Integration & Collaboration Tools",
+      icon: <Settings className="text-white" size={24} />,
+      items: ["Maven", "Jenkins", "Confluence"],
+    },
+    {
+      category: "Bug Tracking Tools",
+      icon: <Monitor className="text-white" size={24} />,
+      items: ["JIRA", "HP ALM & Quality Center", "Bugzilla", "Test Rail"],
+    },
+    {
+      category: "Markup Languages",
+      icon: <Code className="text-white" size={24} />,
+      items: ["HTML", "CSS", "XML"],
+    },
+    {
+      category: "Programming Languages",
+      icon: <Settings className="text-white" size={24} />,
+      items: ["C", "Java", "JavaScript", "TypeScript", "SQL", "Groovy", "Gherkin"],
+    },
+    {
+      category: "Database",
       icon: <Database className="text-white" size={24} />,
-      items: ["MySQL", "PostgreSQL", "Oracle"],
+      items: ["Oracle", "Oracle Forms", "SQL Server", "PostgreSQL", "MongoDB"],
     },
     {
-      category: "Testing & Methodologies",
-      icon: <Settings className="text-white" size={24} />,
-      items: ["Manual Testing", "Agile/Scrum", "Regression Testing", "API Testing (Postman, REST Assured)"],
-    },
-    {
-      category: "Other Tools & Platforms",
+      category: "Operating Systems",
       icon: <Monitor className="text-white" size={24} />,
-      items: ["JIRA", "Confluence", "VS Code", "Eclipse"],
+      items: ["Windows", "iOS", "Android", "Unix/Linux"],
+    },
+    {
+      category: "DevOps Tools",
+      icon: <Settings className="text-white" size={24} />,
+      items: ["Splunk", "New Relic", "Ansible", "Docker"],
     },
   ];
 
