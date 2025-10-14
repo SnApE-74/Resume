@@ -72,7 +72,7 @@ const Hero = forwardRef((props, ref) => {
             <Github size={20} /> GitHub
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1KFJPmi_kj0NxZdTvX-lUyXyuB7ODcRIK"
+            href="https://drive.google.com/file/d/1xJGu1qWyGxYd_H7pcAzRXvD_7OgQ2aH3/view?usp=drive_link"
             target="_blank"
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:scale-105"
           >
