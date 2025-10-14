@@ -29,7 +29,7 @@ const Hero = forwardRef((props, ref) => {
         <div className="mb-10">
           <div className="w-40 h-40 mx-auto rounded-full overflow-hidden shadow-2xl border-4 border-white/20">
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E03AQGnHDB0R7pkrQ/profile-displayphoto-scale_200_200/B4EZgv8WOGHoAc-/0/1753151006049?e=2147483647&v=beta&t=-7DGX3d3JyWSKKmDxAPO5s_JKrlpVlhrjwFEtYP6Bl4"
+              src="https://drive.google.com/file/d/1gvyF94j4-dbHdevS5SbxLD28RgcKLlC5/view?usp=drive_link"
               alt="Shanmukha Maneeshbabu Uppala"
               className="w-full h-full object-cover"
             />
