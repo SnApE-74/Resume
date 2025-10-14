@@ -5,12 +5,12 @@ const WorkExperience = () => {
   const experiences = [
     {
       role: "QA Automation Engineer",
-      company: "KeyBank | Nottingham, MD",
+      company: "Mercy Medical Center | Baltimore, MD",
       duration: "",
       achievements: [
-        "Engineered and maintained automated test suites using Selenium WebDriver, Appium, Cypress, Playwright ensuring cross-browser and cross-device compatibility.",
-        "Developed scalable test scripts in Python, Java, C#, Ruby, or JavaScript using TestNG or JUnit for unit, integration, and end-to-end testing.",
-        "Implemented BDD practices using Cucumber and Spec Flow for collaboration between technical and non-technical team members.",
+        "Lifted regression coverage from 55% to 90% across patient portals, billing, scheduling, and clinical systems by designing and executing manual test scenarios and test cases and building scalable UI automation with Selenium and Playwright.",
+        "Ensured 100% HIPAA compliance by automating validation of ETL healthcare data pipelines, verifying patient data integrity with SQL/API testing, and validating reporting dashboards against warehouse data for accuracy.",
+        "Increased team-wide automation adoption by 35% by mentoring 3 QA engineers on BDD practices and embedding test suites into Continuous Integration/Continuous Deployment pipelines with Jenkins and Azure DevOps.",
         "Integrated API testing into automation frameworks using Postman, SoapUI & REST Assured.",
         "Integrated automated test suites into CI/CD pipelines using Jenkins, CircleCI, Travis CI, GitHub Actions, or Bamboo.",
         "Performed accessibility testing (ADA compliance) using screen readers, keyboard navigation, and contrast analyzers.",
