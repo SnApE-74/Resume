@@ -7,7 +7,7 @@ const About = () => {
       icon: <Target className="w-6 h-6 text-blue-600" />,
       title: "Automation Expertise",
       description:
-        "5+ years of experience in QA Automation across web, mobile, and API applications using Selenium, Cypress, Appium, Playwright, and Rest Assured.",
+        "5+ years of experience in IT Security & GRC across web, mobile, and API applications using Selenium, Cypress, Appium, Playwright, and Rest Assured.",
     },
     {
       icon: <Zap className="w-6 h-6 text-teal-600" />,
