@@ -36,16 +36,7 @@ const WorkExperience = () => {
       ],
     },
     {
-      role: "Test Engineer",
-      company: "Infosys | Hyderabad, India",
-      duration: "Jan 2021 - Jan 2023",
-      achievements: [
-        "Developed and executed comprehensive test plans, test cases, and test scripts to ensure functionality, performance, and security of applications.",
-        "Implemented automation testing using Selenium and TestNG, reducing manual effort by 40%.",
-        "Led the testing lifecycle from test case design to execution and defect reporting.",
-        "Identified, tracked, and reported defects using JIRA.",
-        "Performed integration, regression, and performance testing on web applications to ensure cross-browser and platform compatibility.",
-        "Conducted API testing using Postman for backend validation and third-party integrations.",
+      
       ],
     },
     {
