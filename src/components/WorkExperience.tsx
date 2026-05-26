@@ -4,7 +4,7 @@ import { Briefcase } from "lucide-react";
 const WorkExperience = () => {
   const experiences = [
     {
-      role: "QA Automation Engineer",
+      role: "",
       company: "Mercy Medical Center | Baltimore, MD",
       duration: "",
       achievements: [
