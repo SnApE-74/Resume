@@ -40,7 +40,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Shanmukha Maneeshbabu Uppala – IT Security & GRC Analyst
+            – IT Security & GRC Analyst
             </h3>
 
             <p className="text-gray-700 mb-6 leading-relaxed">
